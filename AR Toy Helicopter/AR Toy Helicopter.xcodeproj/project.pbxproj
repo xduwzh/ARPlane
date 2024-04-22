@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		291FD2B12BD15B7100F1F0B9 /* AR_Toy_HelicopterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291FD2B02BD15B7100F1F0B9 /* AR_Toy_HelicopterApp.swift */; };
+		291FD2B32BD15B7100F1F0B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291FD2B22BD15B7100F1F0B9 /* ContentView.swift */; };
+		291FD2B52BD15B7200F1F0B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291FD2B42BD15B7200F1F0B9 /* Assets.xcassets */; };
+		291FD2B82BD15B7200F1F0B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291FD2B72BD15B7200F1F0B9 /* Preview Assets.xcassets */; };
+		291FD2C12BD15C2900F1F0B9 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291FD2C02BD15C2900F1F0B9 /* CustomARView.swift */; };
+		291FD2C32BD15D5B00F1F0B9 /* CustomARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291FD2C22BD15D5B00F1F0B9 /* CustomARViewRepresentable.swift */; };
+		291FD2C52BD1721700F1F0B9 /* toy_biplane_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 291FD2C42BD1721700F1F0B9 /* toy_biplane_idle.usdz */; };
+		291FD2C72BD1963E00F1F0B9 /* JoystickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291FD2C62BD1963E00F1F0B9 /* JoystickView.swift */; };
+		291FD2C92BD1AA4000F1F0B9 /* ControllerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291FD2C82BD1AA4000F1F0B9 /* ControllerData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		291FD2AD2BD15B7100F1F0B9 /* AR Toy Helicopter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Toy Helicopter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		291FD2B02BD15B7100F1F0B9 /* AR_Toy_HelicopterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Toy_HelicopterApp.swift; sourceTree = "<group>"; };
+		291FD2B22BD15B7100F1F0B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		291FD2B42BD15B7200F1F0B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		291FD2B72BD15B7200F1F0B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		291FD2C02BD15C2900F1F0B9 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		291FD2C22BD15D5B00F1F0B9 /* CustomARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARViewRepresentable.swift; sourceTree = "<group>"; };
+		291FD2C42BD1721700F1F0B9 /* toy_biplane_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane_idle.usdz; sourceTree = "<group>"; };
+		291FD2C62BD1963E00F1F0B9 /* JoystickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickView.swift; sourceTree = "<group>"; };
+		291FD2C82BD1AA4000F1F0B9 /* ControllerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		291FD2AA2BD15B7100F1F0B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		291FD2A42BD15B7100F1F0B9 = {
+			isa = PBXGroup;
+			children = (
+				291FD2AF2BD15B7100F1F0B9 /* AR Toy Helicopter */,
+				291FD2AE2BD15B7100F1F0B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		291FD2AE2BD15B7100F1F0B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				291FD2AD2BD15B7100F1F0B9 /* AR Toy Helicopter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		291FD2AF2BD15B7100F1F0B9 /* AR Toy Helicopter */ = {
+			isa = PBXGroup;
+			children = (
+				291FD2B02BD15B7100F1F0B9 /* AR_Toy_HelicopterApp.swift */,
+				291FD2B22BD15B7100F1F0B9 /* ContentView.swift */,
+				291FD2B42BD15B7200F1F0B9 /* Assets.xcassets */,
+				291FD2B62BD15B7200F1F0B9 /* Preview Content */,
+				291FD2C02BD15C2900F1F0B9 /* CustomARView.swift */,
+				291FD2C22BD15D5B00F1F0B9 /* CustomARViewRepresentable.swift */,
+				291FD2C42BD1721700F1F0B9 /* toy_biplane_idle.usdz */,
+				291FD2C62BD1963E00F1F0B9 /* JoystickView.swift */,
+				291FD2C82BD1AA4000F1F0B9 /* ControllerData.swift */,
+			);
+			path = "AR Toy Helicopter";
+			sourceTree = "<group>";
+		};
+		291FD2B62BD15B7200F1F0B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				291FD2B72BD15B7200F1F0B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		291FD2AC2BD15B7100F1F0B9 /* AR Toy Helicopter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291FD2BB2BD15B7200F1F0B9 /* Build configuration list for PBXNativeTarget "AR Toy Helicopter" */;
+			buildPhases = (
+				291FD2A92BD15B7100F1F0B9 /* Sources */,
+				291FD2AA2BD15B7100F1F0B9 /* Frameworks */,
+				291FD2AB2BD15B7100F1F0B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR Toy Helicopter";
+			productName = "AR Toy Helicopter";
+			productReference = 291FD2AD2BD15B7100F1F0B9 /* AR Toy Helicopter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		291FD2A52BD15B7100F1F0B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					291FD2AC2BD15B7100F1F0B9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 291FD2A82BD15B7100F1F0B9 /* Build configuration list for PBXProject "AR Toy Helicopter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 291FD2A42BD15B7100F1F0B9;
+			productRefGroup = 291FD2AE2BD15B7100F1F0B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				291FD2AC2BD15B7100F1F0B9 /* AR Toy Helicopter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		291FD2AB2BD15B7100F1F0B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291FD2B82BD15B7200F1F0B9 /* Preview Assets.xcassets in Resources */,
+				291FD2C52BD1721700F1F0B9 /* toy_biplane_idle.usdz in Resources */,
+				291FD2B52BD15B7200F1F0B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		291FD2A92BD15B7100F1F0B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291FD2B32BD15B7100F1F0B9 /* ContentView.swift in Sources */,
+				291FD2C12BD15C2900F1F0B9 /* CustomARView.swift in Sources */,
+				291FD2B12BD15B7100F1F0B9 /* AR_Toy_HelicopterApp.swift in Sources */,
+				291FD2C72BD1963E00F1F0B9 /* JoystickView.swift in Sources */,
+				291FD2C32BD15D5B00F1F0B9 /* CustomARViewRepresentable.swift in Sources */,
+				291FD2C92BD1AA4000F1F0B9 /* ControllerData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		291FD2B92BD15B7200F1F0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		291FD2BA2BD15B7200F1F0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		291FD2BC2BD15B7200F1F0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AR Toy Helicopter/Preview Content\"";
+				DEVELOPMENT_TEAM = 7D6XYSU29K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For AR Function";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xdu.wzh.AR-Toy-Helicopter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		291FD2BD2BD15B7200F1F0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AR Toy Helicopter/Preview Content\"";
+				DEVELOPMENT_TEAM = 7D6XYSU29K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For AR Function";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xdu.wzh.AR-Toy-Helicopter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		291FD2A82BD15B7100F1F0B9 /* Build configuration list for PBXProject "AR Toy Helicopter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291FD2B92BD15B7200F1F0B9 /* Debug */,
+				291FD2BA2BD15B7200F1F0B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291FD2BB2BD15B7200F1F0B9 /* Build configuration list for PBXNativeTarget "AR Toy Helicopter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291FD2BC2BD15B7200F1F0B9 /* Debug */,
+				291FD2BD2BD15B7200F1F0B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 291FD2A52BD15B7100F1F0B9 /* Project object */;
+}
